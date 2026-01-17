@@ -1,3 +1,29 @@
+clone:
+git clone https://github.com/sahanassu/mern-crud-app.git
+cd mern-crud-app
+code .
+cd backend
+npm install
+cd ../frontend
+npm install
+
+
+You can copy this all-in-one command set:
+
+D:
+cd path\to\your\folder
+git clone https://github.com/sahanassu/mern-crud-app.git
+cd mern-crud-app
+code .
+
+
+Then separately run npm install in backend and frontend folders.
+
+
+
+
+
+
 PS D:\mern-crud-app> cd backend   
 PS D:\mern-crud-app\backend> npm init -y
 PS D:\mern-crud-app\backend> npm install express mongoose cors bcryptjs
